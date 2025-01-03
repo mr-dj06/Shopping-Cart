@@ -16,6 +16,7 @@
 }
 
 .cartItemImg {
+  border: rgb(53, 53, 53) 0.1rem solid;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -66,7 +67,9 @@
   width: 30%;
   margin: 10px;
 }
-
+Image{
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
 .summary {
   width: 30%;
 }
