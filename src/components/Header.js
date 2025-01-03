@@ -77,9 +77,9 @@ const Header = () => {
                     </span>
                   ))}
                   <Link to="/cart">
-                    <Button style={{ width: "95%", margin: "0 10px" }}>
+                    <Dropdown.Toggle style={{ width: "95%", margin: "0 10px" }}>
                       Go To Cart
-                    </Button>
+                    </Dropdown.Toggle>
                   </Link>
                 </>
               ) : (
